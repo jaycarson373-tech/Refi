@@ -16,6 +16,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://refi.finance"),
   title: "REFI — Robinhood Equity Finance",
   description: "The allocation layer for tokenized equity markets on Robinhood Chain.",
+  keywords: ["tokenized equities", "onchain finance", "Robinhood Chain", "portfolio allocation", "REFI"],
+  robots: { index: true, follow: true },
   openGraph: {
     title: "REFI — Equity, reimagined onchain.",
     description: "Diversified tokenized market access with transparent onchain settlement.",

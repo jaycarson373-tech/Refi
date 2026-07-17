@@ -60,8 +60,9 @@ export default function Home() {
           <a href="#markets">Markets</a>
           <a href="#mechanism">Mechanism</a>
           <a href="#thesis">Thesis</a>
+          <a href="/docs">Docs</a>
         </nav>
-        <div className="network"><span /> Robinhood Chain · ready</div>
+        <div className="network"><span /> Integration · configured</div>
       </header>
 
       <section className="hero" id="overview">
@@ -108,6 +109,13 @@ export default function Home() {
         <div><span className="stat-icon">◇</span><p><small>Assets</small><strong>Tokenized markets</strong></p></div>
         <div><span className="stat-icon">⌁</span><p><small>Settlement</small><strong>Transparent</strong></p></div>
         <div><span className="stat-icon">↻</span><p><small>Access</small><strong>24 / 7</strong></p></div>
+      </section>
+
+      <section className="trust-strip" aria-label="Launch readiness">
+        <p><span>01</span><strong>Interface</strong><em>Operational</em></p>
+        <p><span>02</span><strong>Public API</strong><em>Railway-ready</em></p>
+        <p><span>03</span><strong>Contracts</strong><em>Awaiting publication</em></p>
+        <p><span>04</span><strong>Metrics</strong><em>Zero until verified</em></p>
       </section>
 
       <section className="section" id="markets">
